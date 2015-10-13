@@ -228,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0FDF2F681BBA6E270029BF35 /* Build configuration list for PBXProject "animation" */;
+			buildConfigurationList = 0FDF2F681BBA6E270029BF35 /* Build configuration list for PBXProject "1&2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -422,7 +422,6 @@
 		0FDF2F9B1BBA6E280029BF35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = animation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rong360.animation;
@@ -433,7 +432,6 @@
 		0FDF2F9C1BBA6E280029BF35 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = animation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rong360.animation;
@@ -492,7 +490,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0FDF2F681BBA6E270029BF35 /* Build configuration list for PBXProject "animation" */ = {
+		0FDF2F681BBA6E270029BF35 /* Build configuration list for PBXProject "1&2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0FDF2F981BBA6E280029BF35 /* Debug */,
@@ -508,6 +506,7 @@
 				0FDF2F9C1BBA6E280029BF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FDF2F9D1BBA6E280029BF35 /* Build configuration list for PBXNativeTarget "animationTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +515,7 @@
 				0FDF2F9F1BBA6E280029BF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0FDF2FA01BBA6E280029BF35 /* Build configuration list for PBXNativeTarget "animationUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +524,7 @@
 				0FDF2FA21BBA6E280029BF35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
