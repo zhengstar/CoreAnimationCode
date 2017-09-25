@@ -8,8 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<CAAnimationDelegate>
 @property (nonatomic, strong) UIView *containerView;
+@property (nonatomic, strong) CALayer *shipLayer;
 @end
 
 @implementation ViewController
@@ -32,8 +33,9 @@
 //    [self.containerView.layer addSublayer:pathLayer];
     //add the ship
     CALayer *shipLayer = [CALayer layer];
+    self.shipLayer = shipLayer;
     shipLayer.frame = CGRectMake(0, 0, 64, 64);
-    shipLayer.position = CGPointMake(0, 150);
+    shipLayer.position = CGPointMake(100, 150);
     shipLayer.contents = (__bridge id)[UIImage imageNamed: @"Ship.png"].CGImage;
     [self.containerView.layer addSublayer:shipLayer];
     //create the keyframe animation
@@ -43,6 +45,20 @@
 //    animation.path = bezierPath.CGPath;
 //    animation.rotationMode = kCAAnimationRotateAuto;
 //    [shipLayer addAnimation:animation forKey:nil];
+    
+    UIButton *startButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [startButton setTitle:@"开始" forState:UIControlStateNormal];
+    [startButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    startButton.frame = CGRectMake(0, 0, 80, 40);
+    [startButton addTarget:self action:@selector(start) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:startButton];
+    
+    UIButton *endButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    [endButton setTitle:@"停止" forState:UIControlStateNormal];
+    [endButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    endButton.frame = CGRectMake(180, 0, 80, 40);
+    [endButton addTarget:self action:@selector(stop) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:endButton];
 }
 
 
@@ -51,5 +67,25 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)start
+{
+    //animate the ship rotation
+    CABasicAnimation *animation = [CABasicAnimation animation];
+    animation.keyPath = @"transform.rotation";
+    animation.duration = 2.0;
+    animation.byValue = @(M_PI * 2);
+    animation.delegate = self;
+    [self.shipLayer addAnimation:animation forKey:@"rotateAnimation"];
+}
 
+- (void)stop
+{
+    [self.shipLayer removeAnimationForKey:@"rotateAnimation"];
+}
+
+- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag
+{
+    //log that the animation stopped
+    NSLog(@"The animation stopped (finished: %@)", flag? @"YES": @"NO");
+}
 @end
