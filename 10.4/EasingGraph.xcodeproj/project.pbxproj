@@ -14,8 +14,6 @@
 		01DFB6DF16CC4F5D006A7A9F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01DFB6DC16CC4F5D006A7A9F /* Default-568h@2x.png */; };
 		01DFB6E016CC4F5D006A7A9F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 01DFB6DD16CC4F5D006A7A9F /* Default.png */; };
 		01DFB6E116CC4F5D006A7A9F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01DFB6DE16CC4F5D006A7A9F /* Default@2x.png */; };
-		01EBDB4F1703B7FF00A4A189 /* Door.png in Resources */ = {isa = PBXBuildFile; fileRef = 01EBDB4D1703B7FF00A4A189 /* Door.png */; };
-		01EBDB501703B7FF00A4A189 /* Door@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01EBDB4E1703B7FF00A4A189 /* Door@2x.png */; };
 		01F7243216BEBAF400DB1F0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F7243116BEBAF400DB1F0E /* UIKit.framework */; };
 		01F7243416BEBAF400DB1F0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F7243316BEBAF400DB1F0E /* Foundation.framework */; };
 		01F7243616BEBAF400DB1F0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F7243516BEBAF400DB1F0E /* CoreGraphics.framework */; };
@@ -25,8 +23,8 @@
 /* Begin PBXFileReference section */
 		01DFB6B616CC4CDE006A7A9F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01DFB6B716CC4CDE006A7A9F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		01DFB6BB16CC4CDE006A7A9F /* AutoreverseTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AutoreverseTest-Info.plist"; sourceTree = "<group>"; };
-		01DFB6BC16CC4CDE006A7A9F /* AutoreverseTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AutoreverseTest-Prefix.pch"; sourceTree = "<group>"; };
+		01DFB6BB16CC4CDE006A7A9F /* EasingGraph-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EasingGraph-Info.plist"; sourceTree = "<group>"; };
+		01DFB6BC16CC4CDE006A7A9F /* EasingGraph-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EasingGraph-Prefix.pch"; sourceTree = "<group>"; };
 		01DFB6BD16CC4CDE006A7A9F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01DFB6BE16CC4CDE006A7A9F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		01DFB6BF16CC4CDE006A7A9F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -34,9 +32,7 @@
 		01DFB6DC16CC4F5D006A7A9F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		01DFB6DD16CC4F5D006A7A9F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		01DFB6DE16CC4F5D006A7A9F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		01EBDB4D1703B7FF00A4A189 /* Door.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Door.png; sourceTree = "<group>"; };
-		01EBDB4E1703B7FF00A4A189 /* Door@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Door@2x.png"; sourceTree = "<group>"; };
-		01F7242E16BEBAF400DB1F0E /* AutoreverseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoreverseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F7242E16BEBAF400DB1F0E /* EasingGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasingGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F7243116BEBAF400DB1F0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		01F7243316BEBAF400DB1F0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		01F7243516BEBAF400DB1F0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,8 +70,8 @@
 		01DFB6C916CC4CE8006A7A9F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				01DFB6BB16CC4CDE006A7A9F /* AutoreverseTest-Info.plist */,
-				01DFB6BC16CC4CDE006A7A9F /* AutoreverseTest-Prefix.pch */,
+				01DFB6BB16CC4CDE006A7A9F /* EasingGraph-Info.plist */,
+				01DFB6BC16CC4CDE006A7A9F /* EasingGraph-Prefix.pch */,
 				01DFB6BD16CC4CDE006A7A9F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -84,8 +80,6 @@
 		01DFB6DB16CC4F5D006A7A9F /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				01EBDB4D1703B7FF00A4A189 /* Door.png */,
-				01EBDB4E1703B7FF00A4A189 /* Door@2x.png */,
 				01DFB6DC16CC4F5D006A7A9F /* Default-568h@2x.png */,
 				01DFB6DD16CC4F5D006A7A9F /* Default.png */,
 				01DFB6DE16CC4F5D006A7A9F /* Default@2x.png */,
@@ -106,7 +100,7 @@
 		01F7242F16BEBAF400DB1F0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				01F7242E16BEBAF400DB1F0E /* AutoreverseTest.app */,
+				01F7242E16BEBAF400DB1F0E /* EasingGraph.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,9 +119,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		01F7242D16BEBAF400DB1F0E /* AutoreverseTest */ = {
+		01F7242D16BEBAF400DB1F0E /* EasingGraph */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 01F7245116BEBAF400DB1F0E /* Build configuration list for PBXNativeTarget "AutoreverseTest" */;
+			buildConfigurationList = 01F7245116BEBAF400DB1F0E /* Build configuration list for PBXNativeTarget "EasingGraph" */;
 			buildPhases = (
 				01F7242A16BEBAF400DB1F0E /* Sources */,
 				01F7242B16BEBAF400DB1F0E /* Frameworks */,
@@ -137,9 +131,9 @@
 			);
 			dependencies = (
 			);
-			name = AutoreverseTest;
+			name = EasingGraph;
 			productName = LayerTest;
-			productReference = 01F7242E16BEBAF400DB1F0E /* AutoreverseTest.app */;
+			productReference = 01F7242E16BEBAF400DB1F0E /* EasingGraph.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,11 +147,10 @@
 				TargetAttributes = {
 					01F7242D16BEBAF400DB1F0E = {
 						DevelopmentTeam = G8KFD5U329;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 01F7242916BEBAF400DB1F0E /* Build configuration list for PBXProject "AutoreverseTest" */;
+			buildConfigurationList = 01F7242916BEBAF400DB1F0E /* Build configuration list for PBXProject "EasingGraph" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -169,7 +162,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				01F7242D16BEBAF400DB1F0E /* AutoreverseTest */,
+				01F7242D16BEBAF400DB1F0E /* EasingGraph */,
 			);
 		};
 /* End PBXProject section */
@@ -183,8 +176,6 @@
 				01DFB6DF16CC4F5D006A7A9F /* Default-568h@2x.png in Resources */,
 				01DFB6E016CC4F5D006A7A9F /* Default.png in Resources */,
 				01DFB6E116CC4F5D006A7A9F /* Default@2x.png in Resources */,
-				01EBDB4F1703B7FF00A4A189 /* Door.png in Resources */,
-				01EBDB501703B7FF00A4A189 /* Door@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,14 +258,11 @@
 		01F7245216BEBAF400DB1F0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G8KFD5U329;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Classes/AutoreverseTest-Prefix.pch";
-				INFOPLIST_FILE = "Classes/AutoreverseTest-Info.plist";
-				PRODUCT_NAME = AutoreverseTest;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				GCC_PREFIX_HEADER = "Classes/EasingGraph-Prefix.pch";
+				INFOPLIST_FILE = "Classes/EasingGraph-Info.plist";
+				PRODUCT_NAME = EasingGraph;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -282,14 +270,11 @@
 		01F7245316BEBAF400DB1F0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G8KFD5U329;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Classes/AutoreverseTest-Prefix.pch";
-				INFOPLIST_FILE = "Classes/AutoreverseTest-Info.plist";
-				PRODUCT_NAME = AutoreverseTest;
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				GCC_PREFIX_HEADER = "Classes/EasingGraph-Prefix.pch";
+				INFOPLIST_FILE = "Classes/EasingGraph-Info.plist";
+				PRODUCT_NAME = EasingGraph;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -297,7 +282,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		01F7242916BEBAF400DB1F0E /* Build configuration list for PBXProject "AutoreverseTest" */ = {
+		01F7242916BEBAF400DB1F0E /* Build configuration list for PBXProject "EasingGraph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01F7244F16BEBAF400DB1F0E /* Debug */,
@@ -306,7 +291,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		01F7245116BEBAF400DB1F0E /* Build configuration list for PBXNativeTarget "AutoreverseTest" */ = {
+		01F7245116BEBAF400DB1F0E /* Build configuration list for PBXNativeTarget "EasingGraph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				01F7245216BEBAF400DB1F0E /* Debug */,

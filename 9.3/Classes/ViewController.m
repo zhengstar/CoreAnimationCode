@@ -66,6 +66,7 @@
     //create the keyframe animation
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animation];
     animation.keyPath = @"position";
+    animation.beginTime = CACurrentMediaTime() + 1;
     animation.timeOffset = self.timeOffsetSlider.value;
     animation.speed = self.speedSlider.value;
     animation.duration = 1.0;
